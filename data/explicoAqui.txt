@@ -1,0 +1,1 @@
+O arquivo presente vai ser onde os dados de cada parte da aplicação serão armazenados

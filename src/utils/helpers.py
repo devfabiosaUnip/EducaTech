@@ -1,0 +1,1 @@
+###onde terá funções auxiliares da aplicção, como validação de dados e coisas do tipo
