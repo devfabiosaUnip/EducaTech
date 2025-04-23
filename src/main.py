@@ -9,12 +9,13 @@ def main():
  senha = input("Digite sua senha:");
  telefone = input("Digite seu telefone:");
  RA = input("Digite seu RA:");
- tokenNome = criptografar(nome);
+ tokenNome = criptografar(nome).decode();
+ tokenCPF = criptografar(CPF).decode();
 
- aluno =  Aluno(tokenNome, data_nascimento, CPF, email, senha, telefone, RA);
+ aluno =  Aluno(tokenNome, data_nascimento, tokenCPF, email, senha, telefone, RA);
  aluno.cadastrar();
-
-
+ CPF = tokenCPF;
+ aluno.login(CPF);
 
 if __name__ == "__main__":
     main()

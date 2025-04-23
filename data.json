@@ -1,0 +1,74 @@
+[
+    {
+        "nome": "gAAAAABoB5kT2YhlM9oTze4nd3fM1IB1quPu3RlHXn27XL7j2KMQBNBZ4Eeik-pxamzMhrgl2WxJibcCeE8KfaElneYHnp-F9g==",
+        "data_nascimento": "044",
+        "CPF": "15",
+        "email": "1",
+        "senha": "1",
+        "telefone": "1",
+        "RA": "1"
+    },
+    {
+        "nome": "b'gAAAAABoB5ofXhtW-GuU96TA8Tw5P5RIPwdaKsbhoKzRHOPBDRGBqEbx2wB2Sjm_oQ6wt_Fkk2e_EEDKtQ9kZvANItCn6_BlaQ=='",
+        "data_nascimento": "4444",
+        "CPF": "444444",
+        "email": "4444444",
+        "senha": "4444444",
+        "telefone": "44444",
+        "RA": "44444"
+    },
+    {
+        "nome": "gAAAAABoB6TahqQc7lIXmQ9Q4kgYW9gr_3_8A6xMZ8djCVhKlB6SrYhfDf3d56kko1pTSXDh0K4HQLKgHhzjtyXzkRb79Q4W7w==",
+        "data_nascimento": "19/06/2006",
+        "CPF": "555",
+        "email": "@gmail.com",
+        "senha": "5457",
+        "telefone": "1123",
+        "RA": "12"
+    },
+    {
+        "nome": "gAAAAABoB6UlKycFba9ttfYFz7e3HjZU7VLsBKQoTTtzlya3OBWnN2CeUGS3hKfr0mcmoFuARqKZGLbtppai-Vj-v-0X2XcpBQ==",
+        "data_nascimento": "09/05/2003",
+        "CPF": "554",
+        "email": "@gmail.com",
+        "senha": "444",
+        "telefone": "444",
+        "RA": ""
+    },
+    {
+        "nome": "gAAAAABoB6VhuO_OWUHZVI5cJ8bAN85BoA7g8VJZTshjQ2MOc-V2I4h_Dfk5xW8B87qk7_MIQT6P18YOW1FGqm0khjsuXws5jg==",
+        "data_nascimento": "05/02/203",
+        "CPF": "gAAAAABoB6VhuO_OWUHZVI5cJ8bAN85BoA7g8VJZTshjQ2MOc-V2I4h_Dfk5xW8B87qk7_MIQT6P18YOW1FGqm0khjsuXws5jg==",
+        "email": "2",
+        "senha": "2",
+        "telefone": "2",
+        "RA": "2"
+    },
+    {
+        "nome": "gAAAAABoB6WWr6XnTzxH_dWXmuy8ViFL4jEngt4dlHuSsop7e0FGtgA1x8yuMIZNbvElOBsy-wjyCF-NSf5xnGhVkYTFsoUqLQ==",
+        "data_nascimento": "444",
+        "CPF": "gAAAAABoB6WWpx2mwI_2Prr5fwq7Z4AIxG05b-Jc4f7OLli7xQBri8Ti9xO1opx7Z6AwRCCQYkxIV3CxVjDtOJA53nTuPZcsUA==",
+        "email": "444",
+        "senha": "444",
+        "telefone": "44",
+        "RA": "4"
+    },
+    {
+        "nome": "gAAAAABoB6ZNd5qJZDY4sz9HoUSIYTr4DZm1i5mi14wLXwtl1rmTiwUrlvggpI8mErqDMhde3Tu6_uAVLHTkq5uhBKGfVu719g==",
+        "data_nascimento": "666",
+        "CPF": "gAAAAABoB6ZNN8E6nynKIBTOYmu4JBWXwj-d09ElxzvQlzF-UEj8x9hDPNnoyoO1ExPfV7ZtjeP7ZstblLLf-BBnAtm88vz9mA==",
+        "email": "aaaaaaaa",
+        "senha": "888",
+        "telefone": "aaaaaaa",
+        "RA": "aaaaaa"
+    },
+    {
+        "nome": "gAAAAABoB6ZjNmUOSkeUXbjNcfPkhaVgt-0lQ5TAPPYPTbS7_kG9HbQNDVAuH_pg_I4c-Z0ppLDUp3WfadeiErpkLqCVmLrsAA==",
+        "data_nascimento": "aaaaaaaaa",
+        "CPF": "gAAAAABoB6ZjN23KJgBgC80D641m-nfRWqxZMWgd9o3JjlXXGE01ny2jcbaAaDj0G2asf_J46Dd1PDxt6LvpK56ypdJMcReGmQ==",
+        "email": "aaaaaaaa",
+        "senha": "aaaaaaa",
+        "telefone": "aaaaaaa",
+        "RA": "aaaaa"
+    }
+]

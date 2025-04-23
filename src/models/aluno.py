@@ -1,5 +1,6 @@
 from models.pessoa import Pessoa;
 from services.json_service import salvar_dados, ler_dados;
+from cryptografia.seguranca import descriptografar
 
 class Aluno(Pessoa):
 
@@ -22,6 +23,37 @@ class Aluno(Pessoa):
         dados = ler_dados();
         dados.append(self.novoAluno());
         salvar_dados(dados);
+
+    def login(self, CPF):
+     self.CPF = CPF
+     stts_pesquisa = False
+
+     for aluno in ler_dados():
+        try:
+            cpf_criptografado = aluno["CPF"]
+
+            # Se estiver como string no JSON, precisa ser convertido para bytes
+            if isinstance(cpf_criptografado, str):
+                cpf_criptografado = cpf_criptografado.encode()
+
+            descriptografar_cpf = descriptografar(cpf_criptografado)
+
+            if CPF == descriptografar_cpf:
+                stts_pesquisa = True
+                print("CPF ENCONTRADO:", descriptografar_cpf)
+                break
+
+        except Exception as e:
+            print("Erro ao descriptografar:", e)
+
+     if not stts_pesquisa:
+        print("CPF não encontrado.")
+
+            
+                    
+
+            
+
 
         
         
