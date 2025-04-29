@@ -21,8 +21,8 @@ class Aluno(Pessoa):
     @staticmethod
     def menuLogin():
         print("=== Login de Aluno ===");
-        RA = input("Digite seu RA e aperte enterpara confirmar:");
-        senha = input("Digite sua senha e aperte enterpara confirmar:");
+        RA = str(input("Digite seu RA e aperte enterpara confirmar:"))
+        senha = str(input("Digite sua senha e aperte enterpara confirmar:"))
         Aluno.login_por_RA(RA, senha);
 
     # Menu de Cadastro de Aluno
@@ -35,7 +35,7 @@ class Aluno(Pessoa):
         email = input("Digite o email: ").strip()
         senha = input("Digite a senha: ").strip()
         telefone = input("Digite o telefone: ").strip()
-        RA = input("Digite o RA: ").strip()
+        RA = input("Digite o RA:").strip()
         
         aluno = Aluno(nome, data_nascimento, CPF, email, senha, telefone, RA)
         aluno.cadastrar()
@@ -55,13 +55,14 @@ class Aluno(Pessoa):
         }
         salvar_dados(aluno_data)  # Isso deve ser implementado na função salvar_dados()
 
-    @staticmethod
+    
     def login_por_RA(RA, senha_informada):
-        dados = ler_dados()
+        dados = ler_dados();
+        aluno = Aluno();
         for aluno in dados:
             if aluno["RA"] == RA:
                 senha_criptografada = aluno["senha"]
                 senha_descriptografada = descriptografar(senha_criptografada)
                 if senha_descriptografada == senha_informada:
                     return aluno
-        return None  # Login falhou
+        return "Erro"  # Login falhou

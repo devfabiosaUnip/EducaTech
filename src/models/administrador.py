@@ -7,5 +7,8 @@ class Administrador(Pessoa):
 
     # Funções administrativas, como adicionar professores
     def cadastrar_professor(self, professor):
-        # Lógica para adicionar professor ao sistema
-        pass
+        
+        
+        
+    
+    def revisao_de_tarfefas(self, professor)
