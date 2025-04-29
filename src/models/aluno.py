@@ -1,65 +1,67 @@
-from models.pessoa import Pessoa;
-from services.json_service import salvar_dados, ler_dados;
-from cryptografia.seguranca import descriptografar
+from models.pessoa import Pessoa
+from services.json_service import ler_dados, salvar_dados
+from cryptografia.seguranca import criptografar, descriptografar
 
 class Aluno(Pessoa):
-
     def __init__(self, nome, data_nascimento, CPF, email, senha, telefone, RA):
-        super().__init__(nome,data_nascimento,CPF,email,senha,telefone);
-        self.RA = RA;
+        super().__init__(nome, data_nascimento, CPF, email, senha, telefone)
+        self.RA = RA
 
-    def novoAluno(self):
-        return {
+    @staticmethod
+    def menuLoginCadastro():
+        print("=== Menu ===");
+        print("1)Login 2)Cadastrar nova conta");
+        valor = int(input("Digite a opção desejada:"));
+        
+        if (valor == 1):
+            return Aluno.menuLogin();
+        if (valor == 2):
+            return Aluno.menuCadastro();
+
+    @staticmethod
+    def menuLogin():
+        print("=== Login de Aluno ===");
+        RA = input("Digite seu RA e aperte enterpara confirmar:");
+        senha = input("Digite sua senha e aperte enterpara confirmar:");
+        Aluno.login_por_RA(RA, senha);
+
+    # Menu de Cadastro de Aluno
+    @staticmethod
+    def menuCadastro():
+        print("=== Cadastro de Aluno ===")
+        nome = input("Digite o nome do aluno: ").strip()
+        data_nascimento = input("Digite a data de nascimento (dd/mm/aaaa): ").strip()
+        CPF = input("Digite o CPF: ").strip()
+        email = input("Digite o email: ").strip()
+        senha = input("Digite a senha: ").strip()
+        telefone = input("Digite o telefone: ").strip()
+        RA = input("Digite o RA: ").strip()
+        
+        aluno = Aluno(nome, data_nascimento, CPF, email, senha, telefone, RA)
+        aluno.cadastrar()
+        print(f"Aluno {nome} cadastrado com sucesso!")
+
+    # Função para salvar o aluno em um arquivo
+    def cadastrar(self):
+        # Aqui você pode chamar a função de salvar os dados (como salvar em JSON ou outro formato)
+        aluno_data = {
             "nome": self.nome,
             "data_nascimento": self.data_nascimento,
             "CPF": self.CPF,
             "email": self.email,
-            "senha": self.senha,
+            "senha": criptografar(self.senha),
             "telefone": self.telefone,
             "RA": self.RA
         }
-    
-    def cadastrar(self):
-        dados = ler_dados();
-        dados.append(self.novoAluno());
-        salvar_dados(dados);
+        salvar_dados(aluno_data)  # Isso deve ser implementado na função salvar_dados()
 
-    def login(self, CPF):
-     self.CPF = CPF
-     stts_pesquisa = False
-
-     for aluno in ler_dados():
-        try:
-            cpf_criptografado = aluno["CPF"]
-
-            # Se estiver como string no JSON, precisa ser convertido para bytes
-            if isinstance(cpf_criptografado, str):
-                cpf_criptografado = cpf_criptografado.encode()
-
-            descriptografar_cpf = descriptografar(cpf_criptografado)
-
-            if CPF == descriptografar_cpf:
-                stts_pesquisa = True
-                print("CPF ENCONTRADO:", descriptografar_cpf)
-                break
-
-        except Exception as e:
-            print("Erro ao descriptografar:", e)
-
-     if not stts_pesquisa:
-        print("CPF não encontrado.")
-
-            
-                    
-
-            
-
-
-        
-        
-
-    
-
-
-
-
+    @staticmethod
+    def login_por_RA(RA, senha_informada):
+        dados = ler_dados()
+        for aluno in dados:
+            if aluno["RA"] == RA:
+                senha_criptografada = aluno["senha"]
+                senha_descriptografada = descriptografar(senha_criptografada)
+                if senha_descriptografada == senha_informada:
+                    return aluno
+        return None  # Login falhou

@@ -1,21 +1,73 @@
+from models.aluno import Aluno
+
+def switch_case(valor):
+    if valor == 1:
+        return Aluno.menuLoginCadastro()  # Chama o menu de cadastro do aluno
+    elif valor == 2:
+        return "Opção 2: Administrador"
+    elif valor == 3:
+        return "Opção 3: Professor"
+    else:
+        return "Opção inválida"
+
 def main():
- from models.aluno import Aluno;  
- from cryptografia.seguranca import criptografar, descriptografar;
+    print("=== Bem-Vindo à EducaTech ===")
+    print("=== Informe o seu tipo de login: ===")
+    print("=== 1: Aluno / 2: Administrador / 3: Professor ===")
+    valor = int(input("Digite a opção desejada:"));
+    switch_case(valor);
+    
 
- nome =  input("Digite seu nome:");
- data_nascimento = input("Digite sua data de nascimento:");
- CPF = input("Digite seu CPF:");
- email = input("Digite seu email:");
- senha = input("Digite sua senha:");
- telefone = input("Digite seu telefone:");
- RA = input("Digite seu RA:");
- tokenNome = criptografar(nome).decode();
- tokenCPF = criptografar(CPF).decode();
-
- aluno =  Aluno(tokenNome, data_nascimento, tokenCPF, email, senha, telefone, RA);
- aluno.cadastrar();
- CPF = tokenCPF;
- aluno.login(CPF);
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # Cria o aluno e cadastra
+
+
+    # print("\n=== Login do Aluno ===")
+    # RA_login = input("Digite seu RA para login: ").strip()
+    # senha_login = input("Digite sua senha para login: ").strip()
+
+    # print(f"\n[DEBUG] RA inserido: {RA_login}")
+
+    # # Verifica o login com RA e senha
+    # aluno_encontrado = Aluno.login_por_RA(RA_login, senha_login)
+
+    # if aluno_encontrado:
+    #     print("\nLogin bem-sucedido! Dados do aluno:")
+    #     print(f"Nome: {aluno_encontrado['nome']}")
+    #     print(f"RA: {aluno_encontrado['RA']}")
+    # else:
+    #     print("\nRA não encontrado ou erro no login.")
+
+
+
+
+

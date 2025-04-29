@@ -1,19 +1,23 @@
-### onde terão as funções de ler, escrever a manipular o json
+import os
+import json
 
-import json;
-import os;
+ARQUIVO = "alunos.json"
 
-
-ARQUIVO = "data.json";
-
+# Ler os dados do arquivo JSON
 def ler_dados():
-    from models.aluno import Aluno
-    if os.path.exists(ARQUIVO):             
-        with open(ARQUIVO, "r", encoding="utf-8") as f:
-            return json.load(f)              
-    return []            
+    try:
+        if os.path.exists(ARQUIVO) and os.path.getsize(ARQUIVO) > 0:
+            with open(ARQUIVO, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError):
+        pass  # Se o arquivo estiver corrompido ou não puder ser lido, ignora e retorna lista vazia
 
+    # Se não existir, estiver vazio ou inválido
+    with open(ARQUIVO, "w", encoding="utf-8") as f:
+        json.dump([], f, indent=4)
+    return []
+
+# Salvar dados no arquivo JSON
 def salvar_dados(dados):
-    from models.aluno import Aluno
-    with open (ARQUIVO, "w", encoding="utf-8") as f:
+    with open(ARQUIVO, "w", encoding="utf-8") as f:
         json.dump(dados, f, indent=4)
