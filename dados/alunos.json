@@ -1,0 +1,120 @@
+[
+    {
+        "nome": "gAAAAABoFSX9sQix2iq644LyGCUPOK6FMijfoncWot4SAMUB9rsVA6R2zd9hmv0NIZDuggrVckgYYc7cDNitgb3pvuf0Vy1a7A==",
+        "data_nascimento": "gAAAAABoFSX9xxKkNRPdQBXYIKYEYvrGOZEWAUWH8lwrjZWna4HtRSubwvPir5UXgkU4M-lzwQpYRTfjICaoVLjsT5GZtAjmyA==",
+        "cpf": "gAAAAABoFSX9TNsZpZroqnd3auiT-hmg32m_2hd5DN0l5TtCB9nrhQLn0xQ9aixTk3jGqDMkDzuElk_v2RIZkY_QivfS4VJj_Q==",
+        "email": "gAAAAABoFSX9ytkjLf9w95uFwxZJBfVWUOENlS8rI0YyYQ3Fh8uffIlNeA1bVkK6jlJSxrZaku4E-P-FnY7cn_TTrO_3dO2Riw==",
+        "senha": "gAAAAABoFSX9-o1YmJ01NbrVZN7VP1NvGQIssBuIHeCW7K3_-G06CILsUcuQghyIp6RHLspe2j64Z9wv9BmaQbuQOKRLChznHA==",
+        "telefone": "gAAAAABoFSX9-93SfkGtwGR_ZwNDx0xjMXf9oZZNTUplhfBOrkzdPdGNs-2SU_dUBKWyqeUiz_vP-CCC0OmjwLBpaK5sjmTa-g==",
+        "RA": "92956626",
+        "documentos": {}
+    },
+    {
+        "nome": "gAAAAABoFSk0yvFBCNSltUt0wmVeaT9ixXMjf_mq41QJkSD7Vin5Oe6kYdSE6RCBZygwIwhD2O6GRBqpHg5EfiGkZrKRpWRVMA==",
+        "data_nascimento": "gAAAAABoFSk0iEmZNnnh_HCTdwwm8afszip-a4ecx3YQE7Smf6rC2YZyhnSVC5_JnI0dA2U0Y2E_mn6GOmD4iRrWf4cgRT9paQ==",
+        "cpf": "gAAAAABoFSk0xmOB8jSbWeMiedP1qvtCAE0lsdK-vl3ao2aU5pl6HI2ZqEG-JMzXczS0CrqPlFoDANRAPxgpQv4Q5Ga4OzxZ0A==",
+        "email": "gAAAAABoFSk0EsRKjQgmcsfi3xvtbN3EKtZJJH9KozYKBLAYlJc7eCz0AzkuPgZlSuEGeGc-vXSSXUVwfBRWNWVRTQ4EJDBaeA==",
+        "senha": "$2b$12$AKXNRPTc9EJ9B19CffUznebGt4YSJntqpBun34QZo/7ESURXJidRy",
+        "telefone": "gAAAAABoFSk0otx5O7RZdWEfavk6X7Gy7g0fx3nUWqshlOQIqWPbabSxQ7sKANDvkvqmqQaH6Clz8nAhEYc4rdq2SOizsSheCw==",
+        "RA": "57055998",
+        "documentos": {},
+        "rendimento": {
+            "media": "00",
+            "moda": "00",
+            "mediana": "00"
+        },
+        "aulas": {
+            "Matematica": "N/D",
+            "Portugues": "N/D"
+        }
+    },
+    {
+        "nome": "gAAAAABoFS8HRPEWoU4S_aZlYQmFt6Xnvq5AvV-Hk2wcqnx4yU_IvAqDe3JQrfVbpkVDna5M1p8cfZ2apofNiBG5xZUyVR_tPQ==",
+        "data_nascimento": "gAAAAABoFS8HGl2aJ7XNjEbhYM1TDYwyJtdgdrCmgpe9z_sZvAM6uLv7fWrmHjQpvfOVVnCdXmeIctE-hiRiNQhggdbUX41wAg==",
+        "cpf": "gAAAAABoFS8H6ITgU_4w4hR6s6JiMpfOYFmzyVrwtIHzhcOrHI-grTBSoGnc_8_BWAMCXHyTtL_cvYMK86pLOW1MaxEFuYo1Cw==",
+        "email": "gAAAAABoFS8HlnPEgL4YfQH4o8AWYPTqDaBnM2xKiPyIISj6qEgk-mpN1xfG8JJmR3pWghZeq1gv0z6uv7OEnsM7na43lFL6XQ==",
+        "senha": "$2b$12$amSELaB/EhbE4T4.jKq3ROWx7lF3ueyUAIi9Qr2/gRN/58gX2DQVu",
+        "telefone": "gAAAAABoFS8HBG8MGtXbHH9fMiJ3xhAPaOb7fg7rPFsXcFZUkOTTWA5nbExQCl3BplXQVobwZ-_O1D3WRDjPPFNHlCNGb6TRDw==",
+        "RA": "51432136",
+        "documentos": {},
+        "rendimento": {
+            "media": "00",
+            "moda": "00",
+            "mediana": "00"
+        },
+        "aulas": {
+            "Matematica": "Em andamento",
+            "Portugues": "Em andamento"
+        }
+    },
+    {
+        "nome": "gAAAAABoFS_HwZz2ra-zXrR8lMPEdEQblJAIZUJ1KvE1xzLVqbLOD9AcljTSSaGNe2ZbmPrRI_aNhWMDYpeHrcishmmj9BXskA==",
+        "data_nascimento": "gAAAAABoFS_HbOZyz78w8PFjQJXpgK_hwNTmGu0HurA-gOHc7vzEXVB_MpE0hp8Ww7BKD6ZSVCb5E-ZOKZJgM89s_Wditepq0Q==",
+        "cpf": "gAAAAABoFS_HyXg4FFz1Qpcxm6dK9q8D6GfVFcQt_CSbHpjEE3fMDUvE8qg4EQiyRXicOtkpDCdi53pmqCGCr0zUODKxlmTnmg==",
+        "email": "gAAAAABoFS_HTU-Guz8zy8rKgrRMMYAQ47tbOiRAVYPw00zc5nmuj7jbq3KJwldJRWW--i6gBpsa6QLNRgAAz1ixQEWPx35u6w==",
+        "senha": "$2b$12$Q389bpnOPspnDsQ8Qq/UZOBK6Yf4zilCjtuNy7zesi2qRNDOiP.ri",
+        "telefone": "gAAAAABoFS_Ha23jt_ba2saxpFrjDKpkC9cMfmYBfYVw50Jhy154Mgc9ZQwuqBusf0xYlI1h8mI6NjzWqXu8M268Tb0x6vzn3A==",
+        "RA": "57547573",
+        "documentos": {},
+        "rendimento": {
+            "media": "00",
+            "moda": "00",
+            "mediana": "00"
+        },
+        "aulas": {
+            "Matematica": "Em andamento",
+            "Portugues": "Em andamento"
+        }
+    },
+    {
+        "nome": "gAAAAABoFTFCycNmOWvG5TDnrKvoAjbiolWBxymHwp_rSsAcxXWCXTd-mJCsevLeG6Z05QRsb5Lef21DyejwyeBExKRxczVttQ==",
+        "data_nascimento": "gAAAAABoFTFCyTFtmZOfkQglspLQKpaCML-3LQaET-Ex7V2AO576QUXqU9JimbvmKwlebquA3SJtViDOZHawhjvY7u1Zh9SjNQ==",
+        "cpf": "gAAAAABoFTFCtotGsr82pcfwWspOT_o0s3nV6AuGujfgLEkplUEx61TMkEWvJx-t8ipGsrn0b3NmAuK5WqnPG7lxjsiirgfqgw==",
+        "email": "gAAAAABoFTFCZvjfRmKjh3Yl-q3M1-yrSYa2E4MaRI7kT6mZvAxPXRhf1DxVE3f4AEeb7HX6ZBGM5dAC8_q80cjeDycCktnUc0cD1sJRzwwB-WdW5b8relY=",
+        "senha": "$2b$12$dfUO4fIsstL8lp6FDD6I5etgcbWs7MiBH2Wu/Pu.ahbmrU40PdmPW",
+        "telefone": "gAAAAABoFTFCE0QJAoXUzpUsTOixGU-5m9_aQ4gRw-B7Lzgl5Jjvo1V3ygE3h-gox_84r8y1N4jjlopEJVcLpZp5qwHeV-b1yw==",
+        "RA": "65370476",
+        "documentos": {},
+        "rendimento": {
+            "media": "00",
+            "moda": "00",
+            "mediana": "00"
+        },
+        "aulas": {
+            "Matematica": "Em andamento",
+            "Portugues": "Em andamento"
+        }
+    },
+    {
+        "nome": "gAAAAABoFTNPdFY2Vu7024bAedp6SgDKAuws1nZanndfD2cBE19mrwMCICuyJFX_I9zlxkywaIIDNTGJi17YbyoBqhlbutB4eQ==",
+        "data_nascimento": "gAAAAABoFTNPUlq6sa5F0mxjlqLECaEfF1fmoJr4-KzY0Fpdj2UunoSXqliggO01dj9xrp3OT3u3THzQOQ0Dg6VHDH3a40W43Q==",
+        "cpf": "gAAAAABoFTNPwIVc9zSAEnVMZ64EByQvcNBcPdxYHXkR5sQoidTQWOu3_fOF1xtKFTBjIHGl2m5b0sqYwUGTmrOyT_-xIkckGw==",
+        "email": "gAAAAABoFTNPjWW9q2RrQrSb1Vy8dndQDEil5tCLtkk5mbqsE0Kn6qnddkJVD1ZXGENnkrHtPtwU66TVRiYDCJcCFy-0JLyTpg==",
+        "senha": "$2b$12$okf4HTTgPWuZf1HQqa6OduD1FVpdRd3RJHgiDmMuChvhJvy3E5tHS",
+        "telefone": "gAAAAABoFTNPkiWfsBilrS64vTofAFQDmlBKXaH9L5oEib6rmS1rI8w7Kxk1sfpb4ulgIos4nyofGyZXtiKsVA7SJCHgz2MsHQ==",
+        "RA": "77389185",
+        "documentos": {},
+        "rendimento": {
+            "media": "00",
+            "moda": "00",
+            "mediana": "00"
+        },
+        "aulas": {}
+    },
+    {
+        "nome": "gAAAAABoF97Es0eWwHJqc26EijNjtUGTvJWlwEoMT20BtOp275gjRkobv4IF776C8-2eGcOuHpOtlLx5pRo9DmMfzTHulGZTfg==",
+        "data_nascimento": "gAAAAABoF97FQPbxfogs72GwaT8s4yokQrpwIeVwNKOk4RNHP8-NJ2xOsD80bpopsKdX-GGZI626aIJWPyRWVqtEigPHyHaVpA==",
+        "cpf": "gAAAAABoF97FLYjc-byGIzOwOYyFi-Ld_MlNxI-0UTMww1Fu9kgqZI86IrDoyzjHlUi9jF4NPmUuQtVAJHgR0WkWniW8tC7URg==",
+        "email": "gAAAAABoF97FO-uqMEid7M9C50QCLCb4WgW2btF4JIm_tAbrS2OHkIR-Ssq2IdmA6wl4qsdk-Da0VNkTCbMmusGzoxDt8PIJqw==",
+        "senha": "$2b$12$kexJ5vZO0WJ3NAuY5blorep./hzKg9BXd9J.omc.oy7VSwe5ZlPPW",
+        "telefone": "gAAAAABoF97FNdwq4zwU2wTDWh6b0n_YPTC7KshMbVk58H71CQ4-xFRMbbRzEDrEJuOQDHqmUAhTyaY-Oa5z3-pJ43S-6sheBA==",
+        "RA": "13013928",
+        "documentos": {},
+        "rendimento": {
+            "media": "00",
+            "moda": "00",
+            "mediana": "00"
+        },
+        "aulas": {}
+    }
+]

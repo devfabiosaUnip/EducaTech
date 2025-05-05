@@ -1,1 +1,8 @@
-###onde terá funções auxiliares da aplicção, como validação de dados e coisas do tipo
+import random
+import string
+
+def gerar_RA() -> str:
+    return ''.join(random.choices(string.digits, k=8))
+
+def validar_email(email: str) -> bool:
+    return "@" in email and "." in email

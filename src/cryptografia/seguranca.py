@@ -1,24 +1,18 @@
 from cryptography.fernet import Fernet
 
-# Gerar uma chave e salvar em um arquivo
 def gerar_chave():
-    chave = Fernet.generate_key()
-    with open("chave.key", "wb") as cf:
-        cf.write(chave)
+    with open("chave.key", "wb") as chave:
+        chave.write(Fernet.generate_key())
 
-# Carregar a chave de criptografia
 def carregar_chave():
-    with open("chave.key", "rb") as cf:
-        return cf.read()
+    with open("chave.key", "rb") as chave:
+        return chave.read()
 
-# Função para criptografar uma mensagem
-def criptografar(mensagem: str) -> str:
-    chave = carregar_chave()
-    fernet = Fernet(chave)
-    return fernet.encrypt(mensagem.encode()).decode()
+chave = carregar_chave()
+fernet = Fernet(chave)
 
-# Função para descriptografar uma mensagem
-def descriptografar(token: str) -> str:
-    chave = carregar_chave()
-    fernet = Fernet(chave)
-    return fernet.decrypt(token.encode()).decode()
+def criptografar(texto: str) -> str:
+    return fernet.encrypt(texto.encode()).decode()
+
+def descriptografar(texto_criptografado: str) -> str:
+    return fernet.decrypt(texto_criptografado.encode()).decode()
