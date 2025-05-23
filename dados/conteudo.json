@@ -1,30 +1,56 @@
 [
-    {
-        "materia": "Python",
-        "titulo": "Lógica de programação",
-        "descricao": "Lalalala",
-        "conteudo": "Python",
-        "status": "aprovado"
-    },
-    {
-        "materia": "Python",
-        "titulo": "LALALALA",
-        "descricao": "LALALA",
-        "conteudo": "LALALA",
-        "status": "aprovado"
-    },
-    {
-        "materia": "Python",
-        "titulo": "Pitu",
-        "descricao": "Pitu",
-        "conteudo": "Pitu",
-        "status": "aprovado"
-    },
-    {
-        "materia": "Python",
-        "titulo": "s",
-        "descricao": "s",
-        "conteudo": "s",
-        "status": "aprovado"
-    }
+  {
+    "id": 1,
+    "materia": "Java",
+    "tipo": "modulo",
+    "titulo": "Logica basica",
+    "descricao": "Logica basica",
+    "status": "aprovado"
+  },
+  {
+    "id": 2,
+    "materia": "Java",
+    "tipo": "aula",
+    "modulo": "Logica basica",
+    "titulo": "Tipos e Variaveis",
+    "link_video": "https://youtu.be/FhMtGkcnYKg",
+    "link_quiz": "https://kahoot.it/challenge/08265274?challenge-id=cb8bf36c-1e5d-442a-b615-f0c245f266c5_1747874782012",
+    "status": "aprovado"
+  },
+  {
+    "id": 3,
+    "materia": "Java",
+    "tipo": "modulo",
+    "titulo": "Modulo Inicial",
+    "descricao": "Inicio",
+    "status": "aprovado"
+  },
+  {
+    "id": 4,
+    "materia": "Java",
+    "tipo": "aula",
+    "modulo": "Modulo Inicial",
+    "titulo": "Tipos e variaveis",
+    "link_video": "https://youtu.be/FhMtGkcnYKg",
+    "link_quiz": "https://kahoot.it/challenge/08265274?challenge-id=cb8bf36c-1e5d-442a-b615-f0c245f266c5_1747874782012",
+    "status": "aprovado"
+  },
+  {
+    "id": 5,
+    "materia": "Java",
+    "tipo": "modulo",
+    "titulo": "Modulo 1",
+    "descricao": "Mdulo 1",
+    "status": "aprovado"
+  },
+  {
+    "id": 6,
+    "materia": "Java",
+    "tipo": "aula",
+    "modulo": "Modulo 1",
+    "titulo": "Aula 1",
+    "link_video": "https://youtu.be/FhMtGkcnYKg",
+    "link_quiz": "https://kahoot.it/challenge/08265274?challenge-id=cb8bf36c-1e5d-442a-b615-f0c245f266c5_1747874782012",
+    "status": "aprovado"
+  }
 ]

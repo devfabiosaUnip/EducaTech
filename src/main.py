@@ -1,8 +1,10 @@
 from models.aluno import Aluno
 from models.professor import Professor
 from models.administrador import Administrador
+from cryptografia.seguranca import descriptografar
 
 def main():
+    print(descriptografar("gAAAAABoFSu5rhv_8ZWGPbaCJCcG-tCVfFUnOjn13NdGdLDoyrcSx-sspknUsWO9G08oYJCJVQ65YrXrqeDO7XmIQfvFoxPv5oGOFyo93qmPoTsk2amDG0o="))
     while True:
         print("\n=== EducaTech ===")
         print("1 - Login como aluno")
@@ -32,4 +34,6 @@ def main():
 if __name__ == "__main__":
     Administrador.verificar_adm_inicial()  # Verifica e cria o administrador inicial, se necessário
     main()
+
+
 

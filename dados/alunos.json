@@ -116,5 +116,21 @@
             "mediana": "00"
         },
         "aulas": {}
+    },
+    {
+        "nome": "gAAAAABoLnXWVjNkXqyfCZGDB9W4zrZcv6pjI71wQnm7vAiFVr96wmpTiQEO00UCc5RDRF3vxPsEXfuqCbBcX-L_Tfn2JiiCxg==",
+        "data_nascimento": "gAAAAABoLnXWbALYoZ7kJSIkjZOfm0GeVgjpYkKgMM6X0UE9PETrPtwjRMfloUV9MT-aYAOUSnGA5HjFgPiQIvmrRgQh51exOg==",
+        "cpf": "gAAAAABoLnXW0eN3LVoIxGDcoq5vGXQx0DSX-zVeAkb29AMDFRFrvUBfmHwvMcfeNriobINRK_Fn8-C6OcHmUFe8zCUt44Q29g==",
+        "email": "gAAAAABoLnXW56JotzNBGPunkxLaV54IU-UF9KtRlIOKrbbUHcsMGLvAOcR9DGjzo-Z9k7kgHqYvllRyq2FT0i9DjVRus9CeOA==",
+        "senha": "$2b$12$WKNfs1DJzDSY2v7MDzkETONdknfKHW7nnoVIQl/xaLwZoov.ZKW4C",
+        "telefone": "gAAAAABoLnXWz4p6bCkwrVPXBwPbB77G3RBecrRxGfPRavYWnlqz4Tn0MwmbsgCi00nm9xGODSDo49Im9Ni9U7NBWX3QM7QOUg==",
+        "RA": "67166904",
+        "documentos": {},
+        "rendimento": {
+            "media": "00",
+            "moda": "00",
+            "mediana": "00"
+        },
+        "aulas": {}
     }
 ]
